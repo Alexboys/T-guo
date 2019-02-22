@@ -7,27 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3513B715221E85DF003C5352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B714221E85DF003C5352 /* AppDelegate.m */; };
-		3513B718221E85DF003C5352 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B717221E85DF003C5352 /* ViewController.m */; };
 		3513B71B221E85DF003C5352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3513B719221E85DF003C5352 /* Main.storyboard */; };
 		3513B71D221E85E2003C5352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3513B71C221E85E2003C5352 /* Assets.xcassets */; };
 		3513B720221E85E2003C5352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3513B71E221E85E2003C5352 /* LaunchScreen.storyboard */; };
 		3513B723221E85E2003C5352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B722221E85E2003C5352 /* main.m */; };
+		3513B72D221EB9C6003C5352 /* UIImage+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B72B221EB9C6003C5352 /* UIImage+Colors.m */; };
+		3513B731221EBA21003C5352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B730221EBA21003C5352 /* AppDelegate.m */; };
+		3513B737221F8D09003C5352 /* GXRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B734221F8D09003C5352 /* GXRootTabBarController.m */; };
+		3513B738221F8D09003C5352 /* GXBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B735221F8D09003C5352 /* GXBaseNavigationViewController.m */; };
+		3513B73C221F934E003C5352 /* GXHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B73B221F934E003C5352 /* GXHomeVC.m */; };
+		3513B753221F97DC003C5352 /* UIImage+GXGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B740221F97DC003C5352 /* UIImage+GXGradientColor.m */; };
+		3513B754221F97DC003C5352 /* UIColor+HMExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B742221F97DC003C5352 /* UIColor+HMExtention.m */; };
+		3513B755221F97DC003C5352 /* NSAttributedString+ZFBAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B744221F97DC003C5352 /* NSAttributedString+ZFBAdditon.m */; };
+		3513B756221F97DC003C5352 /* UIButton+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B746221F97DC003C5352 /* UIButton+HMObjcSugar.m */; };
+		3513B757221F97DC003C5352 /* UIColor+ZFBAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B747221F97DC003C5352 /* UIColor+ZFBAddition.m */; };
+		3513B758221F97DC003C5352 /* UILabel+HMExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B748221F97DC003C5352 /* UILabel+HMExtention.m */; };
+		3513B759221F97DC003C5352 /* ICBaseCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B749221F97DC003C5352 /* ICBaseCommon.m */; };
+		3513B75A221F97DC003C5352 /* NSMutableArray+ZFBAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B74B221F97DC003C5352 /* NSMutableArray+ZFBAddition.m */; };
+		3513B75B221F97DC003C5352 /* NSArray+ZFBAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B74F221F97DC003C5352 /* NSArray+ZFBAddition.m */; };
 		A8AEEF70BE2A44CBD993F39A /* libPods-DemoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBE15961FC8D19B7B8F8CF1 /* libPods-DemoTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27FE0EEB16855FF026EBD623 /* Pods-DemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTest/Pods-DemoTest.release.xcconfig"; sourceTree = "<group>"; };
 		3513B710221E85DF003C5352 /* DemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3513B713221E85DF003C5352 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3513B714221E85DF003C5352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3513B716221E85DF003C5352 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3513B717221E85DF003C5352 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3513B71A221E85DF003C5352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3513B71C221E85E2003C5352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3513B71F221E85E2003C5352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3513B721221E85E2003C5352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3513B722221E85E2003C5352 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3513B72B221EB9C6003C5352 /* UIImage+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Colors.m"; sourceTree = "<group>"; };
+		3513B72C221EB9C6003C5352 /* UIImage+Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Colors.h"; sourceTree = "<group>"; };
+		3513B72F221EBA21003C5352 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3513B730221EBA21003C5352 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3513B733221F8D09003C5352 /* GXBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXBaseNavigationViewController.h; sourceTree = "<group>"; };
+		3513B734221F8D09003C5352 /* GXRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXRootTabBarController.m; sourceTree = "<group>"; };
+		3513B735221F8D09003C5352 /* GXBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXBaseNavigationViewController.m; sourceTree = "<group>"; };
+		3513B736221F8D09003C5352 /* GXRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXRootTabBarController.h; sourceTree = "<group>"; };
+		3513B73A221F934E003C5352 /* GXHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeVC.h; sourceTree = "<group>"; };
+		3513B73B221F934E003C5352 /* GXHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeVC.m; sourceTree = "<group>"; };
+		3513B73E221F953C003C5352 /* GXPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPrefixHeader.pch; sourceTree = "<group>"; };
+		3513B740221F97DC003C5352 /* UIImage+GXGradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GXGradientColor.m"; sourceTree = "<group>"; };
+		3513B741221F97DC003C5352 /* NSMutableArray+ZFBAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ZFBAddition.h"; sourceTree = "<group>"; };
+		3513B742221F97DC003C5352 /* UIColor+HMExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMExtention.m"; sourceTree = "<group>"; };
+		3513B743221F97DC003C5352 /* ZFBAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBAddition.h; sourceTree = "<group>"; };
+		3513B744221F97DC003C5352 /* NSAttributedString+ZFBAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ZFBAdditon.m"; sourceTree = "<group>"; };
+		3513B745221F97DC003C5352 /* NSArray+ZFBAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZFBAddition.h"; sourceTree = "<group>"; };
+		3513B746221F97DC003C5352 /* UIButton+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HMObjcSugar.m"; sourceTree = "<group>"; };
+		3513B747221F97DC003C5352 /* UIColor+ZFBAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZFBAddition.m"; sourceTree = "<group>"; };
+		3513B748221F97DC003C5352 /* UILabel+HMExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HMExtention.m"; sourceTree = "<group>"; };
+		3513B749221F97DC003C5352 /* ICBaseCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBaseCommon.m; sourceTree = "<group>"; };
+		3513B74A221F97DC003C5352 /* UIColor+HMExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMExtention.h"; sourceTree = "<group>"; };
+		3513B74B221F97DC003C5352 /* NSMutableArray+ZFBAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ZFBAddition.m"; sourceTree = "<group>"; };
+		3513B74C221F97DC003C5352 /* UIImage+GXGradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GXGradientColor.h"; sourceTree = "<group>"; };
+		3513B74D221F97DC003C5352 /* NSAttributedString+ZFBAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ZFBAdditon.h"; sourceTree = "<group>"; };
+		3513B74E221F97DC003C5352 /* UIButton+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HMObjcSugar.h"; sourceTree = "<group>"; };
+		3513B74F221F97DC003C5352 /* NSArray+ZFBAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZFBAddition.m"; sourceTree = "<group>"; };
+		3513B750221F97DC003C5352 /* ICBaseCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBaseCommon.h; sourceTree = "<group>"; };
+		3513B751221F97DC003C5352 /* UILabel+HMExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HMExtention.h"; sourceTree = "<group>"; };
+		3513B752221F97DC003C5352 /* UIColor+ZFBAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZFBAddition.h"; sourceTree = "<group>"; };
 		9BBE15961FC8D19B7B8F8CF1 /* libPods-DemoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5DFF86413A524320C386AC /* Pods-DemoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTest/Pods-DemoTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,17 +103,91 @@
 		3513B712221E85DF003C5352 /* DemoTest */ = {
 			isa = PBXGroup;
 			children = (
-				3513B713221E85DF003C5352 /* AppDelegate.h */,
-				3513B714221E85DF003C5352 /* AppDelegate.m */,
-				3513B716221E85DF003C5352 /* ViewController.h */,
-				3513B717221E85DF003C5352 /* ViewController.m */,
+				3513B73F221F97DC003C5352 /* T_Tools */,
+				3513B729221EB9C6003C5352 /* T_Category */,
+				3513B72E221EBA21003C5352 /* T_AppDelegate */,
+				3513B732221F8D09003C5352 /* T_Main */,
+				3513B739221F932E003C5352 /* T_Home */,
 				3513B719221E85DF003C5352 /* Main.storyboard */,
-				3513B71C221E85E2003C5352 /* Assets.xcassets */,
 				3513B71E221E85E2003C5352 /* LaunchScreen.storyboard */,
+				3513B71C221E85E2003C5352 /* Assets.xcassets */,
 				3513B721221E85E2003C5352 /* Info.plist */,
 				3513B722221E85E2003C5352 /* main.m */,
+				3513B73E221F953C003C5352 /* GXPrefixHeader.pch */,
 			);
 			path = DemoTest;
+			sourceTree = "<group>";
+		};
+		3513B729221EB9C6003C5352 /* T_Category */ = {
+			isa = PBXGroup;
+			children = (
+				3513B72A221EB9C6003C5352 /* Uimage */,
+			);
+			path = T_Category;
+			sourceTree = "<group>";
+		};
+		3513B72A221EB9C6003C5352 /* Uimage */ = {
+			isa = PBXGroup;
+			children = (
+				3513B72B221EB9C6003C5352 /* UIImage+Colors.m */,
+				3513B72C221EB9C6003C5352 /* UIImage+Colors.h */,
+			);
+			path = Uimage;
+			sourceTree = "<group>";
+		};
+		3513B72E221EBA21003C5352 /* T_AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3513B72F221EBA21003C5352 /* AppDelegate.h */,
+				3513B730221EBA21003C5352 /* AppDelegate.m */,
+			);
+			path = T_AppDelegate;
+			sourceTree = "<group>";
+		};
+		3513B732221F8D09003C5352 /* T_Main */ = {
+			isa = PBXGroup;
+			children = (
+				3513B736221F8D09003C5352 /* GXRootTabBarController.h */,
+				3513B734221F8D09003C5352 /* GXRootTabBarController.m */,
+				3513B733221F8D09003C5352 /* GXBaseNavigationViewController.h */,
+				3513B735221F8D09003C5352 /* GXBaseNavigationViewController.m */,
+			);
+			path = T_Main;
+			sourceTree = "<group>";
+		};
+		3513B739221F932E003C5352 /* T_Home */ = {
+			isa = PBXGroup;
+			children = (
+				3513B73A221F934E003C5352 /* GXHomeVC.h */,
+				3513B73B221F934E003C5352 /* GXHomeVC.m */,
+			);
+			path = T_Home;
+			sourceTree = "<group>";
+		};
+		3513B73F221F97DC003C5352 /* T_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3513B743221F97DC003C5352 /* ZFBAddition.h */,
+				3513B750221F97DC003C5352 /* ICBaseCommon.h */,
+				3513B749221F97DC003C5352 /* ICBaseCommon.m */,
+				3513B751221F97DC003C5352 /* UILabel+HMExtention.h */,
+				3513B748221F97DC003C5352 /* UILabel+HMExtention.m */,
+				3513B752221F97DC003C5352 /* UIColor+ZFBAddition.h */,
+				3513B747221F97DC003C5352 /* UIColor+ZFBAddition.m */,
+				3513B74C221F97DC003C5352 /* UIImage+GXGradientColor.h */,
+				3513B740221F97DC003C5352 /* UIImage+GXGradientColor.m */,
+				3513B74D221F97DC003C5352 /* NSAttributedString+ZFBAdditon.h */,
+				3513B744221F97DC003C5352 /* NSAttributedString+ZFBAdditon.m */,
+				3513B74A221F97DC003C5352 /* UIColor+HMExtention.h */,
+				3513B742221F97DC003C5352 /* UIColor+HMExtention.m */,
+				3513B745221F97DC003C5352 /* NSArray+ZFBAddition.h */,
+				3513B74F221F97DC003C5352 /* NSArray+ZFBAddition.m */,
+				3513B74E221F97DC003C5352 /* UIButton+HMObjcSugar.h */,
+				3513B746221F97DC003C5352 /* UIButton+HMObjcSugar.m */,
+				3513B741221F97DC003C5352 /* NSMutableArray+ZFBAddition.h */,
+				3513B74B221F97DC003C5352 /* NSMutableArray+ZFBAddition.m */,
+			);
+			path = T_Tools;
 			sourceTree = "<group>";
 		};
 		9B97269407B14D7EE76A515E /* Pods */ = {
@@ -122,6 +234,7 @@
 		3513B708221E85DF003C5352 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GX;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = T_Guo;
 				TargetAttributes = {
@@ -187,9 +300,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3513B718221E85DF003C5352 /* ViewController.m in Sources */,
+				3513B758221F97DC003C5352 /* UILabel+HMExtention.m in Sources */,
+				3513B753221F97DC003C5352 /* UIImage+GXGradientColor.m in Sources */,
+				3513B75A221F97DC003C5352 /* NSMutableArray+ZFBAddition.m in Sources */,
+				3513B737221F8D09003C5352 /* GXRootTabBarController.m in Sources */,
+				3513B731221EBA21003C5352 /* AppDelegate.m in Sources */,
+				3513B754221F97DC003C5352 /* UIColor+HMExtention.m in Sources */,
+				3513B72D221EB9C6003C5352 /* UIImage+Colors.m in Sources */,
+				3513B757221F97DC003C5352 /* UIColor+ZFBAddition.m in Sources */,
+				3513B738221F8D09003C5352 /* GXBaseNavigationViewController.m in Sources */,
+				3513B759221F97DC003C5352 /* ICBaseCommon.m in Sources */,
+				3513B755221F97DC003C5352 /* NSAttributedString+ZFBAdditon.m in Sources */,
+				3513B73C221F934E003C5352 /* GXHomeVC.m in Sources */,
+				3513B75B221F97DC003C5352 /* NSArray+ZFBAddition.m in Sources */,
 				3513B723221E85E2003C5352 /* main.m in Sources */,
-				3513B715221E85DF003C5352 /* AppDelegate.m in Sources */,
+				3513B756221F97DC003C5352 /* UIButton+HMObjcSugar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +458,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/GXPrefixHeader.pch";
 				INFOPLIST_FILE = DemoTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.gx.DemoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,8 +476,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/GXPrefixHeader.pch";
 				INFOPLIST_FILE = DemoTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.gx.DemoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
