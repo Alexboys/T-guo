@@ -7,26 +7,50 @@
 //
 
 #import "GXHomeVC.h"
+#import "UIImage+Colors.h"
 
 @interface GXHomeVC ()
+
+@property (nonatomic, strong) UIButton      *confirmButton;
 
 @end
 
 @implementation GXHomeVC
 
+
+-(UIButton *)confirmButton
+{
+    if (!_confirmButton) {
+        _confirmButton = [[UIButton alloc]init];
+        [_confirmButton setTitle:@"渐变色按钮" forState:UIControlStateNormal];
+        UIImage *image = [UIImage creatImageWithSize:CGSizeMake(XWLayout(242), XWLayout(98)) fromColors:UIColorFromRGB(0xFFA05E) toColor:UIColorFromRGB(0xFF745E) ByGradientType:UIImageColorGradientTypeLeftToRight];
+        [_confirmButton setBackgroundImage:image forState:UIControlStateNormal];
+        [_confirmButton setTitleColor:WHITECOLOR forState:UIControlStateNormal];
+        [_confirmButton.titleLabel setFont:UIFontSize(XWLayout(36))];
+        
+    }
+    return _confirmButton;
+}
+
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.view setBackgroundColor:WHITECOLOR];
+    self.title = @"Demao";
+    [self creatUI];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark
+#pragma mark - 初始化界面
+- (void)creatUI{
+    
+    [self.view addSubview:self.confirmButton];
+    
+    [self.confirmButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.height.mas_equalTo(XWLayout(88));
+        make.width.mas_equalTo(XWLayout(300));
+    }];
 }
-*/
 
 @end

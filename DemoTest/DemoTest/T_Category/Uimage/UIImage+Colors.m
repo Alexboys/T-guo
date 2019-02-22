@@ -2,14 +2,16 @@
 //  UIImage+Colors.m
 //  XWMagicBlockApp
 //
-//  Created by seven ma on 2018/7/25.
+//  Created by T-guo ma on 2018/7/25.
 //  Copyright © 2018年 T_guo. All rights reserved.
 //
 
 #import "UIImage+Colors.h"
 
 @implementation UIImage (Colors)
+
 +(UIImage*)creatImageWithSize:(CGSize)size fromColors:(UIColor*)firstColor toColor:(UIColor*)secondColor ByGradientType:(GradientType)gradientType{
+    
     NSMutableArray *ar = [NSMutableArray array];
 
     [ar addObject:(id)firstColor.CGColor];
