@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3512DF182223BF0E00D92D06 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3512DF112223BF0E00D92D06 /* UIView+SDAutoLayout.m */; };
+		3512DF192223BF0E00D92D06 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 3512DF142223BF0E00D92D06 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		3512DF1A2223BF0E00D92D06 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3512DF162223BF0E00D92D06 /* LICENSE */; };
+		3512DF1B2223BF0E00D92D06 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3512DF172223BF0E00D92D06 /* README.md */; };
 		3513B71B221E85DF003C5352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3513B719221E85DF003C5352 /* Main.storyboard */; };
 		3513B71D221E85E2003C5352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3513B71C221E85E2003C5352 /* Assets.xcassets */; };
 		3513B720221E85E2003C5352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3513B71E221E85E2003C5352 /* LaunchScreen.storyboard */; };
@@ -25,11 +29,20 @@
 		3513B759221F97DC003C5352 /* ICBaseCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B749221F97DC003C5352 /* ICBaseCommon.m */; };
 		3513B75A221F97DC003C5352 /* NSMutableArray+ZFBAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B74B221F97DC003C5352 /* NSMutableArray+ZFBAddition.m */; };
 		3513B75B221F97DC003C5352 /* NSArray+ZFBAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B74F221F97DC003C5352 /* NSArray+ZFBAddition.m */; };
+		3513B75F221FA8E4003C5352 /* GXGravityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B75E221FA8E4003C5352 /* GXGravityVC.m */; };
+		3513B762221FB14C003C5352 /* GXGravityBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3513B761221FB14C003C5352 /* GXGravityBackGroundView.m */; };
 		A8AEEF70BE2A44CBD993F39A /* libPods-DemoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBE15961FC8D19B7B8F8CF1 /* libPods-DemoTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27FE0EEB16855FF026EBD623 /* Pods-DemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTest/Pods-DemoTest.release.xcconfig"; sourceTree = "<group>"; };
+		3512DF112223BF0E00D92D06 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		3512DF122223BF0E00D92D06 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		3512DF132223BF0E00D92D06 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		3512DF142223BF0E00D92D06 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		3512DF152223BF0E00D92D06 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		3512DF162223BF0E00D92D06 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3512DF172223BF0E00D92D06 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3513B710221E85DF003C5352 /* DemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3513B71A221E85DF003C5352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3513B71C221E85E2003C5352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +79,10 @@
 		3513B750221F97DC003C5352 /* ICBaseCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBaseCommon.h; sourceTree = "<group>"; };
 		3513B751221F97DC003C5352 /* UILabel+HMExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HMExtention.h"; sourceTree = "<group>"; };
 		3513B752221F97DC003C5352 /* UIColor+ZFBAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZFBAddition.h"; sourceTree = "<group>"; };
+		3513B75D221FA8E4003C5352 /* GXGravityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXGravityVC.h; sourceTree = "<group>"; };
+		3513B75E221FA8E4003C5352 /* GXGravityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXGravityVC.m; sourceTree = "<group>"; };
+		3513B760221FB14C003C5352 /* GXGravityBackGroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXGravityBackGroundView.h; sourceTree = "<group>"; };
+		3513B761221FB14C003C5352 /* GXGravityBackGroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXGravityBackGroundView.m; sourceTree = "<group>"; };
 		9BBE15961FC8D19B7B8F8CF1 /* libPods-DemoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5DFF86413A524320C386AC /* Pods-DemoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTest/Pods-DemoTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +99,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3512DF0D2223BF0E00D92D06 /* T_Third */ = {
+			isa = PBXGroup;
+			children = (
+				3512DF0E2223BF0E00D92D06 /* SDAutoLayout */,
+			);
+			path = T_Third;
+			sourceTree = "<group>";
+		};
+		3512DF0E2223BF0E00D92D06 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3512DF0F2223BF0E00D92D06 /* SDAutoLayoutDemo */,
+				3512DF162223BF0E00D92D06 /* LICENSE */,
+				3512DF172223BF0E00D92D06 /* README.md */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		3512DF0F2223BF0E00D92D06 /* SDAutoLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3512DF102223BF0E00D92D06 /* SDAutoLayout */,
+			);
+			path = SDAutoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		3512DF102223BF0E00D92D06 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3512DF112223BF0E00D92D06 /* UIView+SDAutoLayout.m */,
+				3512DF122223BF0E00D92D06 /* UITableView+SDAutoTableViewCellHeight.h */,
+				3512DF132223BF0E00D92D06 /* SDAutoLayout.h */,
+				3512DF142223BF0E00D92D06 /* UITableView+SDAutoTableViewCellHeight.m */,
+				3512DF152223BF0E00D92D06 /* UIView+SDAutoLayout.h */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
 		3513B707221E85DF003C5352 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +158,13 @@
 		3513B712221E85DF003C5352 /* DemoTest */ = {
 			isa = PBXGroup;
 			children = (
+				3512DF0D2223BF0E00D92D06 /* T_Third */,
 				3513B73F221F97DC003C5352 /* T_Tools */,
 				3513B729221EB9C6003C5352 /* T_Category */,
 				3513B72E221EBA21003C5352 /* T_AppDelegate */,
 				3513B732221F8D09003C5352 /* T_Main */,
 				3513B739221F932E003C5352 /* T_Home */,
+				3513B75C221FA890003C5352 /* T_TextVC */,
 				3513B719221E85DF003C5352 /* Main.storyboard */,
 				3513B71E221E85E2003C5352 /* LaunchScreen.storyboard */,
 				3513B71C221E85E2003C5352 /* Assets.xcassets */,
@@ -190,6 +247,17 @@
 			path = T_Tools;
 			sourceTree = "<group>";
 		};
+		3513B75C221FA890003C5352 /* T_TextVC */ = {
+			isa = PBXGroup;
+			children = (
+				3513B75D221FA8E4003C5352 /* GXGravityVC.h */,
+				3513B75E221FA8E4003C5352 /* GXGravityVC.m */,
+				3513B760221FB14C003C5352 /* GXGravityBackGroundView.h */,
+				3513B761221FB14C003C5352 /* GXGravityBackGroundView.m */,
+			);
+			path = T_TextVC;
+			sourceTree = "<group>";
+		};
 		9B97269407B14D7EE76A515E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +336,8 @@
 			files = (
 				3513B720221E85E2003C5352 /* LaunchScreen.storyboard in Resources */,
 				3513B71D221E85E2003C5352 /* Assets.xcassets in Resources */,
+				3512DF1B2223BF0E00D92D06 /* README.md in Resources */,
+				3512DF1A2223BF0E00D92D06 /* LICENSE in Resources */,
 				3513B71B221E85DF003C5352 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,13 +375,17 @@
 				3513B75A221F97DC003C5352 /* NSMutableArray+ZFBAddition.m in Sources */,
 				3513B737221F8D09003C5352 /* GXRootTabBarController.m in Sources */,
 				3513B731221EBA21003C5352 /* AppDelegate.m in Sources */,
+				3513B762221FB14C003C5352 /* GXGravityBackGroundView.m in Sources */,
 				3513B754221F97DC003C5352 /* UIColor+HMExtention.m in Sources */,
+				3513B75F221FA8E4003C5352 /* GXGravityVC.m in Sources */,
 				3513B72D221EB9C6003C5352 /* UIImage+Colors.m in Sources */,
 				3513B757221F97DC003C5352 /* UIColor+ZFBAddition.m in Sources */,
 				3513B738221F8D09003C5352 /* GXBaseNavigationViewController.m in Sources */,
 				3513B759221F97DC003C5352 /* ICBaseCommon.m in Sources */,
+				3512DF192223BF0E00D92D06 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				3513B755221F97DC003C5352 /* NSAttributedString+ZFBAdditon.m in Sources */,
 				3513B73C221F934E003C5352 /* GXHomeVC.m in Sources */,
+				3512DF182223BF0E00D92D06 /* UIView+SDAutoLayout.m in Sources */,
 				3513B75B221F97DC003C5352 /* NSArray+ZFBAddition.m in Sources */,
 				3513B723221E85E2003C5352 /* main.m in Sources */,
 				3513B756221F97DC003C5352 /* UIButton+HMObjcSugar.m in Sources */,
@@ -458,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG7F555FXQ;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/GXPrefixHeader.pch";
 				INFOPLIST_FILE = DemoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG7F555FXQ;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/GXPrefixHeader.pch";
 				INFOPLIST_FILE = DemoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

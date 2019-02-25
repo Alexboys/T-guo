@@ -8,7 +8,7 @@
 
 #import "GXHomeVC.h"
 #import "UIImage+Colors.h"
-
+#import "GXGravityVC.h"
 @interface GXHomeVC ()
 
 @property (nonatomic, strong) UIButton      *confirmButton;
@@ -27,6 +27,7 @@
         [_confirmButton setBackgroundImage:image forState:UIControlStateNormal];
         [_confirmButton setTitleColor:WHITECOLOR forState:UIControlStateNormal];
         [_confirmButton.titleLabel setFont:UIFontSize(XWLayout(36))];
+        [_confirmButton addTarget:self action:@selector(confirmButtonAction) forControlEvents:UIControlEventTouchUpInside];
         
     }
     return _confirmButton;
@@ -51,6 +52,12 @@
         make.height.mas_equalTo(XWLayout(88));
         make.width.mas_equalTo(XWLayout(300));
     }];
+}
+
+- (void)confirmButtonAction
+{
+    GXGravityVC *GravityVC = [[GXGravityVC alloc]init];
+    [self.navigationController pushViewController:GravityVC animated:YES];
 }
 
 @end
