@@ -531,6 +531,7 @@
 			baseConfigurationReference = FC5DFF86413A524320C386AC /* Pods-DemoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG7F555FXQ;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/GXPrefixHeader.pch";
@@ -550,6 +551,7 @@
 			baseConfigurationReference = 27FE0EEB16855FF026EBD623 /* Pods-DemoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG7F555FXQ;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/GXPrefixHeader.pch";
