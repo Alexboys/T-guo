@@ -70,6 +70,36 @@ THE SOFTWARE.
 
 
 
+## UMCAnalytics
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCCommon
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCCommonLog
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCPush
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCSecurityPlugins
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCShare
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
 ## YYModel
 
 The MIT License (MIT)
