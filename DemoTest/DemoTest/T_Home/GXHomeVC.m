@@ -9,6 +9,7 @@
 #import "GXHomeVC.h"
 #import "UIImage+Colors.h"
 #import "GXGravityVC.h"
+
 @interface GXHomeVC ()
 
 @property (nonatomic, strong) UIButton      *confirmButton;
